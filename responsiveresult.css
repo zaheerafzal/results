@@ -1,0 +1,907 @@
+/* Small Desktop and Below*/
+
+.test-subjects > li > a > img {width:100% !important; }
+.header-result-img { display: none;  }
+
+@media screen and (max-width:1067px) {
+    
+    .signupbox{height:40px;position:relative;right:-18px;width:40px}
+    .signupbox.cs-sticky-search .miniicons{top:15px}
+    .menu ul li a{padding:14px 10px 15px}
+    .srch-box{display:none}
+    .news-slider .carousel img{height:auto;width:100%}
+    .news-slider .carousel{width:440px}
+    .news-slider .carousel-list{width:220px}
+    .left-culm{height:auto;width:650px}
+    .news-side-panel{width:31.8%}
+    .section-imgbox{height:205px;width:122px}
+    .section-imgbox img{height:auto;width:100%}
+    .section-content{height:210px}
+    .sectionbox{height:275px}
+    .smlbox-nws img{height:140px}
+    .smlbox-nws{width:240px}
+    .colleges-menu{position:absolute;top:19%}
+    ul.procesbox li{margin:10px;width:115px}
+    /*.cs-bottom-ad{left:32%}
+    div#PageWiseBanner a img{max-width:100%}*/
+    div.ikd-single-result-box div.rslt-dsc{width:300px!important}
+    div.ikd-datesheet-result-popup div.ikd-single-result-box div.rslt-dsc{width:460px!important}
+}
+
+/* iPad landdscape and Below*/
+@media screen and (max-width:1024px) {
+    ul.main-slider{height:430px}
+    .signupbox{margin:0;top:10px}
+    .right-culm,ul.clg-image-gallery>li:nth-child(5n){margin-right:12px}
+    .menu ul li a{padding:14px 9px 15px}
+    .left-culm{width:665px}
+    ul.main-slider li .caption h2,ul.main-slider li .caption h2 a{font-size:30px;line-height:30px}
+    .app-section .app-heading h3{font-size:30px;line-height:40px;padding:40px 13px 50px 27px;width:43%}
+    .app-section ul.app-list li{width:46.5%}
+    .right-culm{float:right;width:300px}
+    .right-culm-content{box-sizing:border-box;overflow:hidden;width:100%}
+    #BannerDivs,#RightDiv{overflow:hidden!important;width:300px}
+    .news-slider .carousel-list{width:190px}
+    .product-thumbs{width:94%}
+    .product-grid li{width:139px}
+    #sidebar{overflow:hidden}
+    .smlbox-nws{width:228px}
+    
+    .ielts-date,.ielts-price,.ielts-type{width:21%}
+    .ielts-image{text-align:0;width:21%}
+    .ielts-btn1{margin-top:10px;width:20%}
+    .ielts-btn2{margin-top:10px;width:25%}
+    .colleges-menu{position:absolute;top:19%}
+    ul.clg-image-gallery>li img{max-height:114px;max-width:150px}
+    ul.clg-image-gallery>li:nth-child(4n){margin-right:0}
+    .course-filter .filt-title{width:184px}
+    .filt-btn{float:right;margin-right:13px;margin-top:-5px}
+    a.tutor-box{width:100%}
+    .ttdintro{float:left;margin-bottom:23px;width:466px}
+    .ttaffairs{width:320px}
+    .tt-information{width:70%}
+    .tt-exp-box-left,.tt-exp-box-left-2{margin-right:0;width:70%}
+    .clg-reviews .clg-r-student{border:0;width:250px}
+    .clg-t-reviews{float:right}
+    ul.procesbox li{margin:7px}
+    .bs-location-map iframe{width:100%}
+    div.ikd-home-top-courses-section .single-top-courses{width:50%}
+    div.notices-for-class-admissions div.bx-half.one,div.notices-for-class-admissions div.bx-half.two{width:100%}
+    div.notices-for-class-admissions div.linkbx a{display:block}
+    div.ikd-free-online-study ul.subjectsList li{width:50%!important}
+
+    div.single-ots-with-subjts div.classTitle a {font-size: 29px; padding: 12px 24px;}
+    div.single-ots-with-subjts div.classTitle span { font-size: 24px !important; }
+}
+
+/* iPad Portrait and Below, Mobile Both Orentations*/
+@media screen and (max-width:1023px) {
+    .left-culm{width:635px}
+    
+    div.single-ots-with-subjts {float: none; clear: both; width: 100% !important; padding: 15px 10px !important;}
+    div.single-ots-with-subjts::after {contain: ''; display: table; }
+    div.ikdCommentsSection div.mediaChooser ul li {padding: 4px 24px 4px 10px; height: auto !important;}
+    div.ikdCommentsSection div.mediaChooser ul li:last-child {border-right: none}
+    div.ikdCommentsSection div.mediaChooser ul li b {top: -1px;}
+    div.ikdCommentsSection div.mediaChooser ul li span.spMdiaChooser {top: 3px;}
+
+}
+
+/* iPad Portrait and Below, Mobile Both Orentations*/
+@media screen and (max-width:991px) {
+    
+    .jb-news-content{width:513px}
+    ul.main-slider{height:400px}
+    .miniicons{top:-5px}
+    .jb-company-logo{margin-left:0}
+    .left-culm{width:100%}
+    .bookstore-banner{background:#000;padding:30px 0}
+    .bookstore-banner img.imagesb{display:none}
+    .bs-banner-text{-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);-webkit-transform:translateY(0);position:relative;top:0;transform:translateY(0)}
+    ul.inline-form>li input[type=text]{min-width:375px}
+    .bs-row .bs-col{max-width:48%}
+    .bs-row .bs-col img.cimg{height:auto!important;max-width:100%!important;width:100%!important}
+    .bs-row .bs-col:nth-child(n+3){max-width:100%!important;width:48%}
+    .bs-row .bs-col:nth-last-child(3){padding-left:0;padding-right:0}
+    .bs-row .bs-col:nth-child(2n+1){padding-right:13px}
+    .bs-row .bs-col:nth-child(2n){padding-left:13px}
+    ul.main-slider li .caption{padding:60px 40px 30px}
+    ul.main-slider li .caption h2,ul.main-slider li .caption h2 a{font-size:20px;line-height:24px}
+    .app-section .app-heading h3{font-size:40px;line-height:40px;margin-bottom:10px;padding:40px 13px 40px 27px;width:90%}
+    .app-section .app-heading p{padding:0 20px 15px 15px;width:90%}
+    .app-section ul.app-list li{width:94%}
+    div.notices-for-class-admissions div.admsn-more-links a{overflow:hidden;width:120px}
+    div.notices-for-class-admissions div.admsn-more-links a img{max-width:100%}
+    div.notices-for-class-admissions div.single-clg-bx{margin:2px 7px}
+    div.notices-for-class-admissions div.admsn-more-links{margin-top:2px}
+}
+
+/* iPad Portrait and Below, Mobile Both Orentations*/
+@media screen and (max-width:768px) {
+    
+    .signupbox,ul.mini-menu{position:fixed;top:20px;z-index:999}
+    ul.main-slider{height:220px}
+    .ikd-logo{height:auto}
+    .signupbox{border:3px solid #fff;right:70px}
+    .navigation{display:none!important}
+    .sml-dvice-menu,ul.mini-menu li:hover .menu{display:block}
+    .mini-menu{background:#83c928;float:right;font-size:11px}
+    ul.mini-menu{list-style:none;margin:0;padding:0;right:20px}
+    ul.mini-menu li{float:right;position:relative}
+    ul.mini-menu li a{float:left}
+    ul.mini-menu li a img{border:3px solid #fff;float:left;width:40px}
+    .news-slider .carousel-list,.pp_img_text{display:none}
+    .left-culm{width:420px}
+    .news-slider .carousel{width:388px}
+    .main{margin-bottom:0}
+    
+    .cmnt-fld-short{width:44%}
+    .cmnt-fld-captcha{width:215px}
+    .app_ad a img,.sticky{width:100%}
+    .sectionbox{height:266px;width:100%}
+    .calum-half-container{width:99%}
+    .news-slider .carousel img{height:auto;width:100%!important}
+    .right-culm{float:right;margin-right:10px;width:300px}
+    .right-culm-content{width:100%}
+    .menu ul li .mega-menu.full-width{display:none!important}
+    .style-1.menu{background:#83c928;display:none;position:absolute;right:4px;top:46px;width:570px;z-index:999}
+    .menu{display:none}
+    .menu ul li{width:80px}
+    .menu ul li a{display:block;padding:10px 5px;text-align:center;width:90%}
+    .newspaper-jobs li,.newspaper-logos li{width:18%}
+    .news-cutting-area-contianer,.newspaper-logos li img{width:100%}
+    .culm3-box,.random-list li,.sec-culm,.tutors_main_listing li{width:98%}
+    .stdyabrod-header img{margin-top:15px;width:100%}
+    .logo-box,.section-image{width:100%}
+    .section-image img{margin-top:10px;width:100%}
+    .tst-radio-flds-main{height:auto;padding-bottom:20px}
+    .newspaper-jobs li:nth-child(6),.newspaper-jobs li:nth-child(7),.newspaper-jobs li:nth-child(8),.newspaper-jobs li:nth-child(9),.newspaper-logos li:nth-child(6),.newspaper-logos li:nth-child(7),.newspaper-logos li:nth-child(8),.newspaper-logos li:nth-child(9){display:none}
+    .institutename{overflow:hidden;width:30%}
+    .find-tutor label{margin:3px 0 10px!important;position:inherit;top:0;width:100%}
+    .phcode,.register-dropdown,.register-fld{float:left}
+    .register-dropdown{width:285px}
+    .phnmbr{float:right;margin-left:5px;width:174px}
+    .registerbox{margin-left:5%;width:90%}
+    .register-fld{width:272px}
+    .like-quotes{float:right;position:relative;right:38px;top:7px}
+    table.otscontent_table{width:739px!important}
+    .prodct-menu li{width:38%}
+    ul.mts-itms li{width:29%}
+    .lrgbox-nws{height:450px}
+    .smlbox-nws{height:210px;width:164px}
+    .lrgbox-nws img,.smlbox-nws img{height:250px}
+    .smlbox-nws img{height:100px}
+    .lrg-culm-box{width:100%}
+    ul.right-category{width:96%}
+    .top-catgries{width:92%}
+    .ns-rw{width:100%!important}
+    .frm-box{margin:10px;width:95%}
+    .frm-grybox h1{font-size:20px;height:auto;line-height:24px;padding:10px;text-indent:0}
+    .grp-flds-box label{font-size:13px;margin:0!important;position:relative;top:0;width:100%}
+    .frm-fld,.frm-phcode,.frm-phnmbr{padding:1.5% 1%;width:98%}
+    .frm-phcode{width:16%}
+    .frm-dropdown{float:right;padding:6px;width:100%!important}
+    .frm-row input[type=checkbox],.ttdintro{float:left}
+    .frm-phnmbr{width:82%}
+    .section-details-container{width:60%}
+    .detail-right-panel{width:34%}
+    .detail-right-panel-heading{background:0 0;font-size:15px;line-height:22px;padding:5px}
+    .ylwbox .hlfclm{border-bottom:3px solid #ceb311;border-right:0 solid #ceb311;padding:5px 0;width:100%}
+    .ylwbox .dwnldapp{bottom:0}
+    .ielts-date,.ielts-price,.ielts-type{width:28%}
+    .ielts-image{margin-top:10px;text-align:0;width:29%}
+    .ielts-btn1{margin-top:10px;width:28%}
+    .ielts-btn2{margin-top:10px;width:34%}
+    .colleges-menu{position:absolute;top:12%}
+    .clg-full-info ul{-moz-column-count:2;-webkit-column-count:2;column-count:2}
+    ul.clg-image-gallery>li img{max-height:98px;max-width:129px}
+    ul.clg-image-gallery>li:nth-child(4n),ul.clg-image-gallery>li:nth-child(5n){margin-right:12px}
+    ul.clg-image-gallery>li:nth-child(3n){margin-right:0}
+    .ttdintro{margin-bottom:23px;width:300px}
+    a.tutor-box.big .ttaffairs{width:100%}
+    .tt-information{width:60%}
+    .tt-exp-box-left,.tt-exp-box-left-2,.tt-information .tt-name-city,.tt-mobile-no{float:none;width:100%}
+    .tt-exp-box-left,.tt-exp-box-left-2{clear:both;display:block}
+    ul.tt-list-check{margin-bottom:15px}
+    .abp,.lrgmrng{margin-bottom:10px}
+    .g-frm ul.tbs{width:70%}
+    .hfcm{width:100%}
+    ul.crsylk li{width:30%}
+    .lst-pro-box{padding:0}
+    ul.procesbox{padding:10px 0;position:relative}
+    .lst-pro-box .line{height:0}
+    .large{width:98%}
+    ul.adlst li{width:150px}
+    ul.rev-rslt-box li{float:left;margin-right:0;width:100%}
+    ul.rting li{width:14px}
+    .rsltbox ul li{width:16px}
+    /*.cs-bottom-ad{left:28%}*/
+    div.ikd-free-online-study ul.subjectsList li{padding:5px!important;width:100%!important}
+    .home-featured-institution li{height:93px;width:93px}
+    div.ikd-home-top-courses-section .single-top-courses{width:100%; display: flex;}
+    div.notices-for-class-admissions div.admsn-more-links a{display:block;float:left;margin:10px 10px 0 0;overflow:hidden;width:114px}
+    div.notices-for-class-admissions div.admsn-more-links a img{max-width:100%;width:100%}
+    div.notices-for-class-admissions div.linkbx{margin:17px 0 0}
+    div.ikd-col-uni-info-style .clmn-1,div.ikd-col-uni-info-style .clmn-2{width:100%}
+    .s-panel-body .s-panel-links ul {
+                margin: 0;
+                padding: 0;
+                display: block;
+            }
+
+            .s-panel-body {
+                display: block;
+            }
+            .s-panel-body .s-panel-links ul li {
+                list-style-type: none;
+                width: 100%;
+                line-height: 27px;
+                padding: 4px;
+            }
+
+            .s-panel-icon {
+                display: block;
+                width: 100%;
+                padding: 0;
+            }
+}
+
+.header-result-img  {
+        width: 100px;
+        position: fixed;
+        top: 10px;
+        right: 110px;
+        display: block;
+    }
+
+/* Mobile Both Orentations*/
+@media screen and (max-width:680px) {
+    
+    .ikd-logo,.section-content,.sectionbox{height:auto}
+    .ylwbox .hlfclm{border-right:0 solid #ceb311;box-sizing:border-box;padding:0;width:100%}
+    .ikd-logo{padding:0;width:178px}
+    .top_right_side{width:90%}
+    .stdyabrod-header img{margin-top:10px;width:100%}
+    .srch-box{display:none!important}
+    .headerbanner{display:block!important;margin-bottom:4px;margin-top:0!important}
+    .menu ul li a,.sml-dvice-menu,ul.mini-menu li:hover .menu{display:block}
+    .left-culm{margin-right:0;width:100%!important}
+    #catcher img,.news-slider .carousel{width:100%}
+    .news-slider .carousel-list .other-entry{margin:2px 0 0 -5px}
+    .news-slider .carousel-list .other-entry li{float:left;width:28%}
+    .news-slider .carousel-list{width:100%}
+    .news-slider .carousel-list .other-entry img{margin:6px 5px 0 6px}
+    .news-slider .carousel-list .other-entry li.active{border-left:2px solid #FF7F00;overflow:hidden}
+    .sectionbox{margin-bottom:20px;width:100%}
+    .mini-menu{background:#83c928;float:left;font-size:11px}
+    ul.mini-menu li{float:left;position:relative}
+    ul.mini-menu li a{float:left}
+    ul.mini-menu li a img{border:3px solid #fff;float:left;width:40px}
+    .style-1.menu{background:#83c928;position:absolute;right:0;top:46px;z-index:999}
+    .menu ul li{width:80px}
+    .menu ul li a{padding:10px 5px;text-align:center;width:90%}
+    .fb_footer,.footer-img,.google_ad_body_square_responsive{display:none}
+    .footer-content{float:left;height:180px;margin-right:5%;padding-left:2%;padding-top:40px;width:26%}
+    .app_ad img,.calum-half-container{width:100%}
+    #adunit,.banner-728{width:100%!important}
+    .banner-728{height:100%;padding-left:0!important;padding-right:0!important}
+    .lrgbox-nws img,.smlbox-nws{height:300px}
+    .find-tutor label{margin:3px 0 10px!important;position:inherit;top:0;width:100%}
+    .phcode,.register-dropdown,.register-fld{float:left}
+    .register-dropdown{width:336px}
+    .phnmbr{float:none;margin-left:5px}
+    .registerbox{margin-left:5%;width:90%}
+    .prodct-menu li{width:19%}
+    .large,.midium,.mini,.small{width:85%!important}
+    .sub-products-area{width:100%}
+    .culm3-box,.logo-box,.lrg-culm-box{width:98%}
+    .find-institute,.resp-tab-content .tab-box,.resp-tab-content .tab-box:first-child,.scrlesbox{width:100%}
+    .advanced-search-flds,.fld_dropdown{padding-left:10px;padding-right:10px}
+    .scrlesbox,.scrlesbox:nth-child(2){padding:15px}
+    .advenced-btn{margin:0 10px 0 0}
+    ul.box4 li{width:48%}
+    ul.box4 li:nth-child(2n+2){float:right;padding:0}
+    .smlbox-nws{width:100%}
+    .smlbox-nws img{height:200px}
+    ul.flnws{box-sizing:border-box;margin-top:0;padding:10px 15px}
+    ul.flnws li{padding:0 12px 25px 0 !important;width:48%}
+    ul.flnws li:nth-child(1),ul.flnws li:nth-child(2),ul.flnws li:nth-child(3),ul.flnws li:nth-child(4){padding-right:0}
+    ul.flnws li:nth-child(2n+2){float:right!important;padding-right:0!important}
+    ul.n-v-bx li{height:210px;width:45%}
+    .half-culm{width:98%}
+    ul.inlinelist li{width:100%!important}
+    .McatPopup{width:90%}
+    .ielts-date,.ielts-price,.ielts-type{text-align:center;width:30%}
+    .ielts-image{margin:10px 0;text-align:0;width:100%}
+    .ielts-btn1,.ielts-btn2{text-align:0;width:48%}
+    .bs-container,.qc-links{text-align:center}
+    .college-inf-sec,.college-rating-sec{box-sizing:border-box!important;width:100%!important}
+    .colleges-menu{left:0!important;position:relative!important;top:0!important}
+    .college-rating-sec{margin-top:10px;position:relative!important}
+    .college-inf-sec p span.clg-number{display:block;margin-left:0}
+    .qc-links ul.clg-q-links>li{text-align:0}
+    .qc-links ul.clg-q-links>li img{display:block}
+    .qc-links ul.clg-q-links>li a{font-size:12px}
+    .clg-full-info ul{-moz-column-count:1;-webkit-column-count:1;column-count:1}
+    ul.clg-image-gallery>li:nth-child(5n){margin-right:12px}
+    ul.clg-image-gallery>li:nth-child(4n){margin-right:0}
+    ul.clg-image-gallery>li:nth-child(3n){margin-right:12px}
+    .course-filter .filt-title{width:158px}
+    .course-filter .filt-select{width:204px}
+    .next-form select,.next-form-2 select{margin-bottom:0;width:70%}
+    .ttdintro{width:450px}
+    .tt-information{width:50%}
+    .wrong-location .text-white{color:#fff;font-size:30px;width:90%}
+    .clg-reviews .clg-r-name{padding-left:0;width:100%}
+    .g-frm ul.tbs{width:auto}
+    ul.crsylk li{width:20%}
+    .pic-story-box{display:inline-block;float:none!important;vertical-align:top;width:47%!important}
+    .right-culm{float:left;width:100%}
+    #RightDiv{width:100%}
+    #ads ul:after{clear:both;content:'';display:block}
+    #ads ul{width:100%!important}
+    .large-square-banner{padding:3px 0 10px;text-align:left;width:100%}
+    .right-culm-content .googleaddside p,.right-culm-content .googleaddside p a,.right-culm-content .googleaddside p img{display:block;width:100%!important}
+    .googleaddside ins,.right-culm-content ins{width:100%!important}
+    .googleaddside ins iframe,.right-culm-content ins iframe{width:100%}
+    .SC_TBlock{width:100%!important}
+    .section-content p a{display:block}
+    .section-content p img{width:100%}
+    .section-imgbox{height:auto}
+    .banner-728 ins ins{width:100%!important}
+    .banner-728 ins ins iframe,.banner-728 ins ins iframe img{width:100%}
+    .articles-imgbox,.articles-imgbox img{width:100%!important}
+    .article-cat li{width:30%!important}
+    .contributors-area.fright{float:none;width:100%}
+    #ContentPlaceHolder1_BodyLeftColumn_divClg::after,#ContentPlaceHolder1_BodyLeftColumn_divContent::after{clear:both;content:'';display:block}
+    .advanced-search-flds,.advanced-search-flds-width,.fld_dropdown{border:0;float:left;margin:0 10px 10px 0;width:31.5%}
+    .courses-box{box-sizing:border-box;height:140px;padding:10px!important;width:46%!important}
+    ul.csrchrslt li{height:170px}
+    div#CourseCategory.crses-contianer{margin-top:0}
+    .news-link li{float:left;width:100%}
+    .sub-cmnt-area{margin-bottom:10px!important}
+    .section-details-container{margin-right:0!important;width:100%!important}
+    .section-details-container img{width:100%!important}
+    .news-side-panel{width:100%}
+    #searchul{height:auto!important}
+    .dta-img{margin-bottom:10px;margin-top:10px}
+    
+    .body-row .ots-lft{margin-right:0!important;width:100%!important}
+    .body-row .ots-lft img{margin-bottom:10px!important;width:100%}
+    .body-row .ots-right{margin-top:0!important;width:100%!important}
+    ul.g-tstbox li{width:31%}
+    #Form1>table#ddList{width:100%!important}
+    #Form1>table#ddList .col_right{float:left!important;margin:0 10px 30px!important;width:87%!important}
+    .row.mid-mrgn-top .left-culm .year-lst li{width:32%}
+    .g-frm .tbline{display:none}
+    .row.mid-mrgn-top .left-culm,.row.mid-mrgn-top .right-culm{margin-right:0!important;width:100%!important}
+    .profile-sharing-area li{width:20%!important}
+    .register-fld-info label{width:100%!important}
+    .content_homepage{width:95%}
+    .search-flds-area{padding-left:15px;padding-top:15px}
+    #lstdiv{float:left;margin-right:15px!important;width:75%!important}
+    #lstdiv .chosen-container{margin-right:0!important;width:100%!important}
+    #lstdiv .chosen-container-multi .chosen-choices li.search-field{width:100%!important}
+    .btn-crs-2{height:50px;padding:0 10px}
+    .chosen-container-multi .chosen-choices{height:50px!important}
+    .edu-level li{width:30%!important}
+    ul#CourseLevel li img{height:auto;max-width:100%;width:auto}
+    .frm-fld-area .ttregform table{width:100%}
+    .frm-grybox .frm-fld-area .grp-flds-box #ContentPlaceHolder1_rbtype{width:60%}
+    .frm-fld-area .ttregform table input{margin-top:5px}
+    .frm-grybox .frm-fld-area .grp-flds-box #ContentPlaceHolder1_rbtype label{line-height:23px}
+    /*.cs-bottom-ad{bottom:-5px;left:24%;width:55%}*/
+    ul.chptrbox li{width:20%}
+    ul.prolist li{width:48%}
+    ul.tst-dates li{box-sizing:border-box;min-height:80px;width:100%}
+    .dt{float:right;font-size:22px;font-weight:400;height:60px;line-height:33px;position:absolute;right:12px;top:9px;width:auto}
+    .bookpup{height:auto;min-height:0;width:90%}
+    .bookpup-box .bookpup-image{width:150px}
+    .bookpup-box .bookpup-image img{height:auto;max-width:166px}
+    .bookpup-box .bookpup-desc h2,.bookpup-box .bookpup-desc h2 span{font-size:24px;min-height:0}
+    .bookpup-box .bookpup-desc h3,.bookpup-box .bookpup-desc h3 span{font-size:20px}
+    .bookpup .bookpup-close img{height:26px;width:26px}
+    .bookpup .bookpup-close{position:absolute;right:10px;top:10px}
+    .bookpupTop{z-index:9999}
+    .mid-mrgn-top .left-culm .body-row p img{height:auto!important;max-width:100%;width:100%!important}
+    .jb-news-content{-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);-webkit-transform:translateY(-50%);float:left;position:absolute;right:0;top:50%;transform:translateY(-50%);width:400px}
+    .jb-company-desc h4{max-width:280px}
+    a.hot-job-box>.jb-news-img{border:7px solid #d3d3d3;display:inline-block;float:left;height:154px;overflow:hidden;width:174px}
+    ul.nts-j li{width:100%}
+    ul.obj-list>li{width:33.33333%}
+    ul.list-heading>li .fbs{font-size:28px}
+    ul.list-heading>li .fbs img{max-width:40px}
+    ul.inline-form>li input[type=text]{border-bottom:1px solid #ccc;border-radius:0;min-width:237px}
+    ul.inline-form>li .btn-success-large{border-radius:0}
+    .bs-row .bs-col{float:none;max-width:100%;padding:0!important}
+    .bs-row .bs-col:nth-child(n+3){width:100%}
+    .bs-container{text-align:0}
+    .feature-book .fbBpx{display:block;float:none;width:100%}
+    .feature-book .fbBpx:nth-child(2n){border-left:0 solid #e5e5e5}
+    .feature-book .fbBpx:nth-child(2n) .fbimg{padding-left:0}
+    .bookstore-content .mpcbs,.bookstore-content .mpcbs h3{text-align:center}
+    .bookstore-content .mpcbs:after{display:none}
+    .bookstore-banner p.tgline{padding:0 10px}
+    .feature-book.smfb .fbBpx{width:50%}
+    .bs-location-map iframe{width:100%}
+    .row{padding:0}
+    .njbabs{left:30px;top:25px;transform:translateY(0);width:90%}
+    .mid-mrgn-top{margin-left:5px;margin-right:5px}
+    .job-company{padding:10px 3px}
+    .job-company-name{color:#fff;font-size:31px;font-weight:700;line-height:28px;padding-left:20px;padding-top:25px;vertical-align:middle}
+    .job-company-logo{height:85px;margin-right:15px;width:85px}
+    .section-paragraph p{padding:0 10px}
+    .app-section .app-heading h3{width:94%}
+    .signupbox,ul.mini-menu{top:5px!important}
+    .midium,.sec-culm,.x-large{left:0;text-align:left;width:100%}
+    ul.citi-clg li a{min-height:inherit}
+    .find-institute{margin:5px 0}
+    ul.citi-clg{margin-bottom:0}
+    .banner-728.lrg-mrgn-top{margin:5px 0!important;padding:5px 0!important}
+    .next-form>a{position:relative;top:5px;vertical-align:top}
+    .home-featured-institution{margin:10px 0}
+    div.top-job-section{min-height:inherit!important;padding-bottom:10px}
+    .wrapper .pgJDetails div.pgInfoTopBlockLeft div.tBox h1{margin-top:15px!important}
+    .wrapper div.pgInfoTopBlockLeft div.tBox p{font-size:14px}
+    div#ContentPlaceHolder1_BodyLeftColumn_CollegeDetailMenu_divshow{margin-top:0}
+    .body-row.tb-mrgn{margin:5px 0}
+    ul.clg-image-gallery > li{box-sizing:border-box;clear:none!important;cursor:pointer;display:block!important;float:left!important;margin:0!important;overflow:hidden;padding:3px!important;width:33.33%!important}
+    ul.clg-image-gallery{font-size:0;list-style-type:none;margin:0 -3px 10px;padding:0}
+    ul.clg-image-gallery>li img{max-height:112px;max-width:100%;width:100%}
+    .college-inf-sec{padding:5px 5px 0}
+    a.re{border:1px solid #d3d3d3;box-sizing:border-box;color:#777;float:right;font-size:14px;height:auto;line-height:20px;margin:5px 0;overflow:hidden;padding:10px;position:relative;right:0;text-align:center;top:0;width:100%}
+    ul.rev-rslt-box{list-style:none;margin:0;width:100%}
+    ul.rev-rslt-box li:first-child{width:100%}
+    ul.rev-rslt-box li{display:block;float:left;margin:5px 0;width:100%}
+    .review-box{width:100%}
+    .review-heading.tb-mrgn{margin:5px 0}
+    .rsltbox{box-sizing:border-box;width:100%}
+    .clg-crs-image{float:left;margin-right:5px}
+    .clg-crs-list{border:0;float:none}
+    .clg-crs-list > ul > li{box-sizing:border-box;float:left;font-size:14px;height:auto;line-height:normal;min-height:26px;overflow:hidden;padding:5px;width:100%}
+    .clg-crs-list > ul > li a{display:block;font-size:13px;height:100%}
+    .clg-crs-image img{height:auto;width:50px}
+    div#collegecoursesdiv{margin:10px 0!important}
+    .next-arrow,.prv-arrow{top:-2px}
+    .next-form select{padding:0 35px 0 10px}
+    .wrapper .pgInfoTopBlockLeft.nStyle .icon span{width:89px!important}
+    .collegehome ul.citi-clg{margin-top:5px}
+    .collegehome ul#CourseLevel{margin-top:7px}
+    .collegehome .banner-728.tb-mrgn{box-sizing:border-box;margin:5px 0;padding:5px!important;width:100%!important}
+
+    div.ots-fancy-tabs div.tab-content-inner {overflow-x: auto;}
+    div.class-subj-slides {display: table;}
+    div.single-general-test {display: table-cell; padding: 5px;}
+    div.single-general-test div.img {width: 96px; height: 96px;}
+    div.single-general-test div.img b {font-size: 22px}
+    
+}
+
+/* Small Mobile Both Orentations and Large Mobile Portrait*/
+@media screen and (max-width:580px) {
+    
+    .njbabs{top:12px}
+    .otherlinks,.subjects-tble{width:97%}
+    .otherlinks li{width:99%}
+    .ulp{border:0;display:block;max-height:250px;min-height:auto;overflow-x:hidden;overflow-y:scroll;padding-left:0;padding-top:1%;width:97%}
+    .frm-grybox .frm-fld-area .grp-flds-box label{width:100%}
+    .left-culm .frm-box .frm-fld-area .grp-flds-box .frm-row .frm-fld.frm-phnmbr{width:80%}
+    /*.cs-bottom-ad{left:5%;right:5%;width:90%}
+    div#PageWiseBanner a img{max-width:100%}*/
+    .stickybannerclose{float:left}
+    div.ikd-free-online-study ul.subjectsList li{margin-top:5px!important;padding:0!important;width:100%!important}
+    div.ikd-free-online-study ul.subjectsList .innerBx .ctnt{padding-left:125px;width:100%!important}
+    div.ikd-free-online-study ul.subjectsList .innerBx .img{bottom:0;left:0;position:absolute;top:0}
+    div.ikd-free-online-study ul.subjectsList .innerBx{position:relative}
+    div.ikd-free-online-study ul.subjectsList{margin:0!important;overflow:hidden;text-align:left;width:100%!important}
+    div.ikd-free-online-study{padding:5px!important}
+    .jb-news-content,div.ikd-free-online-study h3{font-size:20px!important;margin-top:5px!important;text-align:left!important}
+    div.single-ots-with-subjts li {float: none; width: 100%!important;}
+    div.single-ots-with-subjts div.classSubjts{padding: 12px 24px}
+}
+
+/* Small Mobile Both Orentations*/
+@media screen and (max-width:480px) {
+    
+    ul.main-slider{height:230px}
+    ul.mini-menu{right:5px;top:15px}
+    .signupbox{right:55px;top:15px}
+    .section-heading-line.x-large h1{font-size:18px!important;padding-bottom:3px!important}
+    .sec-btn{margin-bottom:0}
+    .section-paragraph h3{margin-bottom:5px}
+    .culm3-box,.culm3-content{height:auto;min-height:auto}
+    .ttdintro{width:300px}
+    .phcode,.register-fld{width:200px}
+    .content_homepage{width:100%}
+    .phcode{width:70px}
+    .phnmbr{width:123px}
+    .register-dropdown{width:216px}
+    .checkbox-area li{width:100%!important}
+    .nwsltrhding{font-size:16px;padding:10px 15px}
+    .checkbox-area input[type=checkbox]{margin-right:8px;top:0}
+    .register-content span{left:0;position:absolute;top:-9px}
+    .news-slider .carousel-list{display:none}
+    .news-slider .carousel{width:100%}
+    .cmnt-fld-short{margin:0 0 8px;width:96%}
+    
+    .news-slider .carousel .carousel-inner .entry-thumbnail a img{height:70%;width:100%}
+    .news-slider .carousel .carousel-inner .entry-thumbnail{height:auto}
+    .main{margin-bottom:0}
+    .top-story-container{width:98%}
+    .footer-content{float:left;height:180px;padding:10px;width:40%}
+    .mini-menu{background:#83c928;float:left;font-size:11px}
+    ul.mini-menu li{float:left;position:relative}
+    ul.mini-menu li a,ul.mini-menu li a img{float:left}
+    ul.mini-menu li:hover .menu{display:block}
+    .style-1.menu{position:absolute;right:0;width:403px;z-index:999}
+    .menu{display:none}
+    .menu ul li{width:80px}
+    .menu ul li a{display:block;padding:10px 5px;text-align:center;width:90%}
+    .calum-half-container{width:100%}
+    .banner-728{height:100%;width:100%}
+    .mid-mrgn-top .banner-728.tb-mrgn{width:95%!important}
+    .copyright-box{height:auto}
+    .footer_fb-box{display:block;float:none;margin-bottom:10px}
+    #slider1_container,.newspaper-jobs li:nth-child(6),.newspaper-jobs li:nth-child(7),.newspaper-jobs li:nth-child(8),.newspaper-jobs li:nth-child(9),.newspaper-logos li:nth-child(6),.newspaper-logos li:nth-child(7),.newspaper-logos li:nth-child(8),.newspaper-logos li:nth-child(9){display:none}
+    .search-fld{width:62%}
+    .fld_dropdown{margin-left:8px}
+    .advenced-btn{margin-right:10px}
+    .midium,.random-list li,.x-large{width:98%}
+    .viewall{top:0}
+    .app_ad img,.clg-sctn img{width:100%}
+    .advanced-search-flds-width{margin-bottom:10px;width:98%}
+    .ddl_last{width:96%}
+    .institutename{width:33.7%}
+    .ad-date li{width:auto}
+    .scholarships_fld{margin-bottom:10px;width:94.5%}
+    .midium,.sec-culm,.x-large{left:0;text-align:left;width:100%}
+    .jb-news-content,div.ikd-free-online-study h3{text-align:center}
+    .newspaper-jobs li,.newspaper-logos li{width:17.5%}
+    .centerimg img,.clg-sctn img,.larg_img img,.news-cutting-area-contianer,.news-side-panel,.newspaper-logos li img,.tutors_main_listing li{width:100%}
+    .find_subject{width:99%}
+    .register-student-tutor-box{margin:0}
+    .advanced-search-flds,.course-filter .filt-select,.course-filter .filt-title{margin-bottom:10px}
+    .section-details-container img{width:100%!important}
+    .sub-cmnt-area-text{overflow:hidden}
+    .prodct-menu li{width:38%}
+    .product-grid li{width:45%}
+    .left-brand-menu{width:100%}
+    .advanced-search-flds,.fld_dropdown{width:97%}
+    .smltext{width:100%}
+    .mbglry{display:block!important}
+    .pic-story-box{margin-right:4%;width:46%}
+    .tst-guid .intbox,.tst-guid .ntbox{width:96%}
+    .detail-right-panel{width:100%!important}
+    .crs-tabs::before,.filt-btn .filter-btn,.tt-information{width:100%}
+    ul.clg-image-gallery>li:nth-child(4n),ul.clg-image-gallery>li:nth-child(5n){margin-right:12px}
+    ul.clg-image-gallery>li:nth-child(3n){margin-right:0}
+    ul.clg-image-gallery>li img{max-height:108px;max-width:142px}
+    .course-filter .filt-select,.course-filter .filt-title,.filt-btn{float:none;width:100%}
+    .filt-btn .filter-btn{float:none;margin-top:10px}
+    .course-new-box h2{font-size:30px}
+    ul.tab-handels>li{margin-right:30px}
+    .crs-uni-list .unis-list .uni-name{width:80%}
+    .crs-uni-list .unis-list .uni-course-list{width:60%}
+    .crs-uni-list .unis-list .uni-rates span{font-size:40px;line-height:40px}
+    .g-frm ul.tbs{width:66%}
+    ul.crsylk li{width:30%}
+    ul.csrchrslt li{height:190px}
+    .section-imgbox{width:100%}
+    .section-imgbox img{width:auto}
+    .bookpup{height:auto;min-height:0;width:85%}
+    .bookpup-box .bookpup-desc h2,.bookpup-box .bookpup-desc h2 span{font-size:24px;min-height:0}
+    .bookpup-box .bookpup-desc h3,.bookpup-box .bookpup-desc h3 span{font-size:20px}
+    .bookpup .bookpup-close img{height:26px;width:26px}
+    .bookpup .bookpup-close{position:absolute;right:10px;top:10px}
+    .bookpup-box .bookpup-desc{color:#000;display:block}
+    .bookpup-box .bookpup-image{display:block;text-align:center}
+    .bookpup-box .bookpup-image>img{max-height:200px;width:auto}
+    .mid-mrgn-top .left-culm .body-row p img{height:auto!important;max-width:100%;width:100%!important}
+    a.hot-job-box{width:100%}
+    .jb-news-content{-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);-webkit-transform:translateY(0);float:none;position:relative;right:0;top:0;transform:translateY(0);width:100%}
+    .jb-company-desc{float:none;margin-left:0;padding:15px 0}
+    .jb-company-logo{display:none;margin-left:0}
+    .jb-company-desc h4{max-width:none}
+    a.hot-job-box>.jb-news-img{border:7px solid #d3d3d3;box-sizing:border-box;display:inline-block;float:none;height:200px;overflow:hidden;width:100%}
+    a.hot-job-box>.jb-news-img>img{border:0 solid #d3d3d3;display:inline-block;height:auto;margin-bottom:-4px;overflow:hidden;width:100%}
+    .section-heading-line.full.custom-heading img.mobile-hidden,ul.main-slider ul.slick-dots{display:none!important}
+    ul.obj-list>li{width:50%}
+    .nts-jobs-box{width:100%}
+    .icon-hot{right:0;top:-44px}
+    .section-heading-line.full.custom-heading h1{top:0}
+    .section-heading-line.full.custom-heading{padding:0}
+    ul.main-slider button.slick-next,ul.main-slider button.slick-prev{background-size:40px!important;height:40px;outline:0;top:54%;width:40px}
+    ul.main-slider button.slick-next{right:15px}
+    ul.main-slider button.slick-prev{left:15px}
+    ul.main-slider .itemslide{min-height:initial!important}
+    ul.main-slider li .caption{bottom:0!important;box-sizing:border-box!important;padding:57px 15px 15px;top:auto!important;width:100%!important}
+    .signupbox.cs-sticky-search .miniicons{top:15px}
+    div.section-heading-line.full.custom-heading img.mobile-hidden{display:block!important;top:-3px!important;width:150px!important}
+    div.section-heading-line.full.custom-heading h1{padding-right:165px!important}
+    .miniicons{top:15px!important}
+    .ikd-logo{width:130px}
+    .home-featured-institution li{height:80px;margin:.5%;width:22.4%!important}
+    ul.chptrbox li{width:50%!important}
+    ul.g-tstbox li{margin:3px;width:46%}
+    div.notices-for-class-admissions div.bx-half.two{width:100%}
+    div.notices-for-class-admissions div.bx-half.one{margin-bottom:20px;width:100%}
+    div.notices-for-class-admissions div.admsn-more-links a{display:inline-block;margin-left:0;margin-right:5px;width:30%}
+    div.notices-for-class-admissions div.lst-colleges{margin:0 -7px}
+    div.notices-for-class-admissions div.single-clg-bx{height:67px;margin:6px 7px;width:67px}
+    div.notices-for-class-admissions{padding:10px}
+    div.notices-for-class-admissions div.linkbx a{display:block;font-size:12px;padding:10px 5px;width:100%}
+    div.notices-for-class-admissions div.linkbx{margin:15px 0 10px}
+    .college-banner{background:#83c928!important;position:relative;width:100%}
+    .college-banner img#ContentPlaceHolderMenuUnder_ContentMenuUnder_CollegesMenu_backgroundimg{background:none;bottom:0;height:100%!important;left:0;max-width:100%!important;opacity:0.3;position:absolute;right:0;top:0;width:100%!important}
+    .colleges-menu .qc-links ul.clg-q-links>li:last-child{display:none}
+    .colleges-menu .qc-links ul.clg-q-links>li:nth-child(7){display:none}
+    .college-banner .college-inf-sec .college-rating-sec{width:auto!important}
+    .qc-links ul.clg-q-links > li.active{width:auto}
+    .colleges-menu .qc-links ul.clg-q-links > li{background:#83c928;border:0!important;border-left:0;display:block;float:left;list-style:none;margin:0;overflow:hidden;padding:0;width:16.66%!important}
+    .colleges-menu .qc-links ul.clg-q-links > li.active{background:#000}
+    .colleges-menu .qc-links ul.clg-q-links > li a{border-right:1px rgba(245,245,245,0.59) solid!important;box-sizing:border-box;display:block;float:none;font-size:12px;line-height:13px;min-height:59px;overflow:hidden;padding:5px 0!important;width:100%!important}
+    .college-banner .college-inf-sec h1{align-items:center;color:#000!important;display:grid;font-family:Calibri!important;font-size:16px!important;font-weight:600!important;height:70px;line-height:15px!important;max-width:52%;width:52%}
+    .college-banner .college-rating-sec{background:none;color:#000;line-height:normal;margin-top:0;position:absolute!important;right:5px;top:0;width:auto}
+    .college-rating-sec .total-rates{color:#000!important;font-size:40px!important}
+    .college-rating-sec .total-reviews{color:#000!important;margin:0!important;position:relative;top:-10px}
+    .college-rating-sec .total-stars{position:relative;top:-8px}
+    .college-banner .qc-links{display:inline-block!important;font-size:0!important;margin:-4px 0 0!important;overflow:hidden!important;padding:0!important;position:relative!important;text-align:center!important;top:4px!important;width:100%!important}
+    .college-banner .qc-links ul.clg-q-links{display:block!important;font-size:0!important;list-style:none!important;margin:0!important;padding:0!important;width:100%!important}
+    .colleges-menu .qc-links ul.clg-q-links>li img{clear:both!important;display:block!important;margin-bottom:2px!important}
+    .college-banner .college-inf-sec{background:none!important}
+    .colleges-menu .qc-links ul.clg-q-links > li,.college-banner .qc-links{overflow:visible!important}
+
+    
+}
+
+/* Small Mobile LandScapes*/
+
+@media screen and (max-width:380px){
+    .app-section ul.app-list li a.app-holder,.blue-btn-big,.profile-image{text-align:center}
+    ul.main-slider{height:170px}
+    ul.prolist li{width:100%}
+    ul.adlst li{box-sizing:border-box;padding:10px;width:50%}
+    ul.procesbox li{width:45%}
+    .ttdintro{margin-bottom:40px;width:225px}
+    .blue-btn-big{box-sizing:border-box;display:block;position:relative;width:100%}
+    .ielts-date,.ielts-price,.ielts-type{margin-bottom:15px;text-align:center;width:100%}
+    .ielts-image{margin-top:0}
+    .style-1.menu{position:absolute;right:0;width:330px;z-index:999}
+    #lstdiv,.crs-uni-list .unis-list{position:relative}
+    .calum-half-container,.news-slider .carousel{width:100%}
+    .top-story-container-shadow{position:relative;top:-5px}
+    .pastpapers-boards li,.pastpapers-uni li{width:96%}
+    .single-subject li{width:90%}
+    .footer-content{height:auto;width:94%}
+    .copyright-box{height:auto}
+    .footer_fb-box{display:block;float:none;margin-bottom:10px}
+    .search-fld{width:56%}
+    .lrg.awesome{padding:7px 3px}
+    .culm3-box,.logo-box{width:98%}
+    .advenced-btn{margin-right:10px}
+    .viewall{top:0}
+    .institutename{overflow:hidden;width:30%}
+    .ad-date li{width:auto}
+    .ddl_last{width:96%}
+    .dates-flds input{margin-bottom:0;width:190px}
+    .find-tutor-stu-contianer{margin:0 0 15px;padding:0;width:325px}
+    .tutors_main_listing li{width:120%}
+    .content_homepage{width:100%}
+    .cmnt-fld-captcha,.cmnt-fld-captcha-text{width:200px}
+    .shop-itmes{right:0;top:25px}
+    .courses-box{width:47%!important}
+    #CourseCategory>a .courses-box{width:100%!important}
+    .edu-level li{width:46%}
+    .edu-level li img{height:auto;width:100%}
+    ul.nts-crs-icon-boxes li{margin:5px}
+    ul.nts-crs-icon-boxes li a{height:130px;width:125px}
+    ul.mts-itms li{width:44%}
+    .scrlesbox{padding:10px 15px 0}
+    .lrgbox-nws{height:auto;margin-bottom:10px}
+    .lrgbox-nws img{height:200px}
+    .lrgbox-nws .info h3{font-size:17px;line-height:24px}
+    .lrgbox-nws .info{height:auto;padding:5px 20px}
+    .lrgbox-nws .info p{line-height:18px;margin-top:0}
+    .smlbox-nws,.smlbox-nws .info{height:auto}
+    ul.box4 li{padding:0 0 15px!important;width:100%}
+    .scrlesbox:nth-child(2),ul.flnws{padding:0 15px}
+    ul.flnws li{padding:0 0 10px!important;width:100%}
+    ul.n-v-bx li{width:44%}
+    .one-clm-listing li,.two-clm-listing li{width:100%}
+    .frm-grybox h1{font-size:17px}
+    .frm-phnmbr{width:81%}
+    ul.clg-image-gallery>li:nth-child(3n),ul.clg-image-gallery>li:nth-child(4n),ul.clg-image-gallery>li:nth-child(5n){margin-right:12px}
+    ul.clg-image-gallery>li:nth-child(2n){margin-right:0}
+    ul.clg-image-gallery>li img{max-height:112px;max-width:148px}
+    .tt-profile-image img{max-height:none;max-width:100%;width:100%}
+    .clg-reviews .clg-r-student{width:100%}
+    .clg-t-reviews{border:0;float:none;width:100%}
+    ul.select-course-type>li{max-width:104px;min-width:104px}
+    .crs-uni-list .unis-list .uni-name{width:55%}
+    .crs-uni-list .unis-list .uni-course-list{margin-top:10px;width:100%}
+    .crs-uni-list .unis-list .uni-rates span{font-size:30px;line-height:30px}
+    .crs-uni-list .unis-list .uni-name a{font-size:16px}
+    .g-frm ul.tbs{width:86%}
+    ul.crsylk li{width:28%}
+    .large-square-banner{width:100%}
+    .articles-imgbox,.articles-imgbox img,.large-square-banner img{width:100%!important}
+    .articles-boxes,.contributors-area{height:auto!important;margin:20px 0 0!important;width:100%!important}
+    .articles-imgbox{background:0 0!important}
+    .body-row.lrg-mrgn-top .top-search-contianer .dates-flds label{width:100%}
+    .body-row.lrg-mrgn-top .top-search-contianer .dates-flds input{width:80%!important}
+    .body-row.lrg-mrgn-top .top-search-contianer .advenced-btn{float:left}
+    .advanced-search-flds,.fld_dropdown{margin-left:8px;width:95%!important}
+    .otherlinks,.subjects-tble{width:97%}
+    .otherlinks ul,.subjects-tble ul{width:99%}
+    .otherlinks li,.subjects-tble li{display:inline-block;float:none!important;vertical-align:top;width:100%!important}
+    .hlpbtn{bottom:74px}
+    .scrollup{bottom:140px}
+    .culm3-box-imgbox,.lrg-culm-imgbox{margin:0 0 10px;width:100%}
+    .left-culm>div:after{clear:both;content:'';display:block}
+    .article-cat li{display:inline-block!important;float:none!important;vertical-align:top;width:43%!important}
+    .article-cat li p{font-size:13px}
+    .lists-four li{width:30%}
+    .next-form>a{display:inline-block;vertical-align:top}
+    .cmnt-head-area{margin-top:10px}
+    .dta-img{margin-bottom:5px}
+    ul.citi-clg li{margin:1% .5%;width:32%}
+    ul.citi-clg li a{padding:5px}
+    ul.csrchrslt li .detail{width:100%!important}
+    .subjects-tble a{font-size:11px!important;outline:0}
+    .year-lst li{width:18%}
+    .row.mid-mrgn-top .left-culm .year-lst li{display:inline-block;float:none;vertical-align:top;width:31%}
+    .row.mid-mrgn-top .left-culm .year-lst li a{font-size:13px;padding:5px}
+    .nts-jobs-box .fright{float:left!important;margin-top:10px}
+    .nts-jobs-box .fright .inputsearch{width:100%!important}
+    .dates-flds{display:none}
+    
+    ul.g-tstbox li a{height:70px;width:100%}
+    .profile-sharing-area li{width:24%!important}
+    .profile-image{margin:0 0 20px!important;width:100%!important}
+    .profile-info{margin:0!important;width:40%!important}
+    .profile-link{width:55%!important}
+    .profile-info p{display:block!important;font-size:15px}
+    ul.g-tstbox li p{font-size:17px!important}
+    .subjectspan{margin-top:0!important}
+    .top-search-contianer{padding-left:10px}
+    .search-flds-area{padding-left:2px;padding-top:12px;width:94%}
+    .newspaper-jobs li a{font-size:11px}
+    #CourseCategory>a{display:inline-block;width:31%}
+    .body-row.edu-level.tb-mrgn li{width:22%!important}
+    .mid-mrgn-top .left-culm .body-row.edu-level.tb-mrgn li{margin:.5%;width:45%!important; text-align: center;}
+    .mid-mrgn-top .left-culm .body-row.edu-level.tb-mrgn li a{display:block;line-height:0;padding:0}
+    .mid-mrgn-top .left-culm .body-row.edu-level.tb-mrgn li a img{height:100%!important;width:100%!important}
+    .mid-mrgn-top .left-culm .body-row.edu-level.tb-mrgn #Skills li a h3{
+        line-height: 22px;
+        font-size: 13px;
+    }
+    #lstdiv{width:68%!important}
+    .course-filter,.tutor_bio{width:100%!important}
+    .chosen-container-multi .chosen-choices{height:40px!important}
+    .btn-crs-2{font-size:25px;height:40px;margin:0 0 15px}
+    #lstdiv .chosen-container-multi .chosen-choices li.search-field input{padding:0 25px 0 10px;width:100%!important}
+    .tutor_bio{padding:10px 0 0!important}
+    .course-filter .filt-title span{margin-top:10px;max-width:200px!important;vertical-align:top}
+    a.tutor-box .ttcity{margin-bottom:0!important;padding:0;word-wrap:break-word}
+    a.tutor-box .ttimage,a.tutor-box.big .ttaffairs{margin-bottom:15px}
+    a.tutor-box.big .ttteaches{display:inline-block;width:100%}
+    .ttteaches .ttcity{padding:0}
+    a.tutor-box .ttexperience{display:inline-block;width:36%}
+    a.tutor-box .ttname{margin-bottom:5px}
+    #Form1>table#ddList,.frm-grybox .frm-fld-area .grp-flds-box ul.ttoptions li label{width:100%!important}
+    .frm-grybox .frm-fld-area .grp-flds-box ul.ttoptions li label>label{line-height:13px;width:90%!important}
+    .frm-grybox .frm-fld-area .grp-flds-box ul.ttoptions li label>input{margin-top:0!important;width:auto!important}
+    .frm-grybox .frm-fld-area .grp-flds-box .frm-row.cs-post-info label{width:100%}
+    .frm-grybox .frm-fld-area .grp-flds-box .frm-row.cs-post-info label>label{line-height:20px;margin:-3px 0 0!important;width:90%}
+    .frm-grybox .frm-fld-area .grp-flds-box .frm-row.cs-post-info label>input{margin-top:0!important;width:auto!important}
+    .mid-mrgn-top .left-culm .frm-box .frm-grybox .frm-fld-area .grp-flds-box .frm-row input{margin-top:5px;padding:2%!important;width:96%}
+    .mid-mrgn-top .left-culm .frm-box .frm-grybox .frm-fld-area .grp-flds-box .frm-row select{margin:0 0 10px;padding:5px 6px;width:100%!important}
+    .mid-mrgn-top .left-culm .frm-box .frm-grybox .frm-fld-area .grp-flds-box .frm-row input#txtNumber{margin:0;width:70%}
+    .frm-row.cs-post-info{margin-top:-8px}
+    .next-form-2 select{background-color:#fff!important;background-image:none!important;font-size:15px;height:40px;margin-left:0;padding:5px 10px}
+    .course-new-box-2 h2{font-size:30px;line-height:30px}
+    .frm-grybox .frm-fld-area .grp-flds-box #ContentPlaceHolder1_rbtype{width:70%}
+    .frm-grybox .frm-fld-area .grp-flds-box table td input{width:20%!important}
+    .frm-grybox .frm-fld-area .grp-flds-box table td label{width:73%}
+    .mid-mrgn-top .left-culm .body-row p img{height:auto!important;max-width:100%;width:auto!important}
+    .row.mid-mrgn-top .left-culm .body-row.tb-mrgn .sec-culm{width:100%}
+    .row.mid-mrgn-top .left-culm .body-row.tb-mrgn .sec-culm .postquestion{background-size:cover}
+    .cs-bottom-ad{width:100%}
+    .bs-detail-left,.bs-detail-right,.feature-book.smfb .fbBpx{width:100%}
+    ul.list-heading>li img{display:none}
+    a.bs-city .bs-city-desc{padding:15px}
+    .bs-detail-left{min-height:350px}
+    .job-banner img.imagesb{min-height:150px}
+    .njbabs{left:20px}
+    .job-company-name{color:#fff;font-size:31px;font-weight:700;line-height:28px;padding-left:20px;padding-top:10px;vertical-align:middle}
+    ul.main-slider li .caption{width:75%}
+    .app-section ul.app-list li a.app-holder .img-holder{float:none;margin:0 auto 20px}
+    .mid-mrgn-top .left-culm .frm-box .frm-grybox .frm-fld-area .grp-flds-box .frm-row input#txtPhone{float:right!important;margin-top:0;padding:6px 2%!important;width:70%!important}
+    .mid-mrgn-top .left-culm .frm-box .frm-grybox .frm-fld-area .grp-flds-box .frm-row select#ddlCode{float:left!important;width:70px!important}
+    div.frm-grybox .lrg.awesome{padding:7px 10px}
+}
+
+/* Small Mobile Both Orentations*/
+@media screen and (max-width:479px) {
+    .signupbox{width:auto}
+    p.afterLoggedInDesc{display:none!important}
+    div.afterLoggedIn{display:block!important;top:0}
+    div.afterLoggedIn div.frstBox .usrName{display:none}
+    div.afterLoggedIn div.optionsBox{left:auto;right:0;width:130px}
+    div.pgCollegeViewAdmisnAlert .imageBx{box-sizing:border-box;float:left;height:250px;padding-right:0;width:100%}
+    div.pgCollegeViewAdmisnAlert .imageBx img{height:250px}
+    div.pgCollegeViewAdmisnAlert .dscBx{box-sizing:border-box;float:left;padding:15px;width:100%}
+    div.featured-colleges-universities-links div.link{margin-bottom:15px}
+    .copyright-box{box-sizing:border-box;height:auto;padding:5px 5px 80px}
+    a.ftr-btm-winslnk{background:#ff5700;display:block;float:left;margin-bottom:10px;margin-right:0;text-align:center;width:100%}
+    .footer_fb-box{margin-bottom:5px}
+    .copyright-box ul.btmlink{box-sizing:border-box;clear:both;float:left;margin-bottom:10px;padding:0;width:100%}
+    .copyright-box ul.btmlink li{border:0;box-sizing:border-box;float:left;padding:0;width:50%}
+    /*.cs-bottom-ad{box-sizing:border-box;left:0;padding:0 5px;right:0;width:100%}*/
+    div.ikd-single-result-box div.mDt{height:auto!important;padding:5px!important}
+    div.ikd-single-result-box div.rsltbyImage{float:none!important;height:80px!important;margin:5px auto!important;padding:10px!important;width:80px!important}
+    div.ikd-single-result-box div.rsltbyImage img{max-width:100%}
+    div.ikd-single-result-box div.rslt-dsc{height:auto!important;width:100%!important}
+    div.ikd-single-result-box div.rslt-dsc h3{font-size:16px!important;text-align:center}
+    div.ikd-single-result-box div.rslt-info{text-align:center}
+    div.ikd-single-result-box div.rslt-dt{display:inline-block;float:none!important;min-height:55px;overflow:hidden}
+    div.ikd-single-result-box .rslt-desc-further{display:inline-block!important;float:none!important;min-height:55px;overflow:hidden;text-align:left}
+    div.ikd-single-result-box div.rslt-links{display:block!important;height:auto!important;text-align:center;width:100%!important}
+    div.ikd-single-result-box div.rslt-links a.rslt-btn{box-sizing:border-box;clear:none!important;display:inline-block!important;float:none!important;margin:5px!important;width:46%!important}
+    div.ikd-single-result-box a.btn-print{display:block;height:auto!important;margin:0 auto!important;overflow:hidden!important;text-align:center!important;width:96%!important}
+    div.ikd-single-result-box a.btn-print span,div.ikd-single-result-box a.btn-print img{display:inline-block!important;float:none!important;min-height:24px;overflow:hidden}
+    div.ikd-single-result-box a.btn-print img{top:3px!important}
+    div.ikd-single-result-box a.btn-print span{top:4px!important}
+    div.ikd-datesheet-result-popup div.ikd-single-result-box div.rslt-dsc{width:100%!important}
+    div.ikd-single-result-box a.btn-print img {top:-4px!important}
+}
+
+/* Small & Large Mobile Portrait */
+@media screen and (max-width:359px) {
+    .mid-mrgn-top .left-culm .frm-box .frm-grybox .frm-fld-area .grp-flds-box .frm-row input#txtPhone{width:63%!important}
+    .bx-guidness-after-result .single-guidness-bx {
+        width: 45%;
+    }
+    .bx-guidness-after-result .single-guidness-bx img {
+        width: 100%
+    }
+}
+
+/* Small Mobile Portrait*/
+@media screen and (max-width:320px) {
+    ul.main-slider{height:150px}
+    ul.tst-dates li{min-height:120px;text-align:center}
+    .dt{float:none;font-size:22px;font-weight:400;height:60px;left:0;line-height:33px;position:relative;top:15px;width:100%}
+    .ttdintro{width:195px}
+    .ielts-date,.ielts-price,.ielts-type{margin-bottom:15px;text-align:center;width:100%}
+    .ielts-image{margin-top:0}
+    .signupbox{right:70px;top:10px}
+    ul.mini-menu{right:25px;top:10px}
+    .content_homepage{width:100%}
+    .ikd-logo{height:auto;width:150px}
+    .style-1.menu{position:absolute;right:0;width:314px;z-index:999}
+    
+    .mini-menu{background:#83c928;float:left;font-size:11px;height:33px;width:33px}
+    ul.mini-menu li a{float:right;width:auto}
+    ul.mini-menu li a img{float:left}
+    ul.mini-menu li:hover .menu{display:block}
+    .menu{display:none}
+    .menu ul li{float:left;width:25%}
+    .menu ul li a{display:block;padding:10px 5px;text-align:center;width:90%}
+    .calum-half-container,.left-culm,.news-slider .carousel{width:100%}
+    .row{padding:3px}
+    .top-story-container-shadow{position:relative;top:-5px}
+    .pastpapers-boards li,.pastpapers-uni li{width:96%}
+    .cmnt-fld{width:90%}
+    .midium,.sec-culm,.x-large{width:94%}
+    .center-adsbox,.google_ad_body_square_responsive{overflow:hidden;width:280px}
+    .lrg-mrgn-top{margin-top:5px}
+    .news-link{margin-bottom:0}
+    .news-link li{padding:4px}
+    .leftimg{margin:0 0 15px;width:100%}
+    ul.n-v-bx li{height:auto;margin:0 0 10px;padding:3%;width:93%}
+    ul.n-v-bx li img{height:190px}
+    ul.select-course-type>li{max-width:90px;min-width:90px}
+    .g-frm ul.tbs{width:100%}
+    ul.crsylk li{width:45%}
+}
